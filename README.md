@@ -1,4 +1,4 @@
-# CLion调试redis源码
+# CLion调试REDIS源码
 
 ## 背景
 
@@ -9,12 +9,29 @@
 ## 步骤
 
 ##### 1. 下载源码
-
-```shell
+```
 git clone git@github.com:huangz1990/redis-3.0-annotated.git
 ```
 
-##### 2. deps/hiredis目录下新增`CMakeLists.txt`
+##### 2. 环境搭建
+###### 2.1 Linux
+```安装C的编译环境
+    apt-get/yum install gcc cmake make
+```
+###### 2.2 Mac
+```安装C的编译环境
+   brew install gcc@8
+   brew install gcc
+   brew install cmake
+   brew install make
+```
+
+###### 2.3 Windows
+```安装C的编译环境
+   尚未尝试，最好的的环境就是linux，安装各种C的库方便
+```
+
+##### 3. deps/hiredis目录下新增`CMakeLists.txt`
 
 ```cmake
 add_library(hiredis STATIC
@@ -27,7 +44,7 @@ add_library(hiredis STATIC
         )
 ```
 
-##### 2. deps/linenoise目录下新增`CMakeLists.txt`
+##### 4. deps/linenoise目录下新增`CMakeLists.txt`
 
 ```cmake
 add_library(linenoise
@@ -35,7 +52,7 @@ add_library(linenoise
         )
 ```
 
-##### 3. deps/lua目录下新增`CMakeLists.txt`
+##### 5. deps/lua目录下新增`CMakeLists.txt`
 
 ```cmake
 set(LUA_SRC
@@ -80,7 +97,7 @@ set(LUA_SRC
 add_library(lua STATIC ${LUA_SRC})
 ```
 
-##### 4. deps目录下新增`CMakeLists.txt`
+##### 6. deps目录下新增`CMakeLists.txt`
 
 ```cmake
 add_subdirectory(hiredis)
@@ -88,7 +105,7 @@ add_subdirectory(linenoise)
 add_subdirectory(lua)
 ```
 
-##### 5. redis-3.0-annotated目录下新增`CMakeLists.txt5`
+##### 7. redis-3.0-annotated目录下新增`CMakeLists.txt5`
 
 ```cmake
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
@@ -179,14 +196,14 @@ target_link_libraries(redis-cli
 link_directories(deps/hiredis/ deps/linenoise/ diredeps/lua/src)
 ```
 
-##### 6. 导入CLion
+##### 8. 导入CLion
 
 将项目导入CLion，导入时选择不覆盖已有的CMakeLists.txt。
 
-##### 7. 运行
+##### 9. 运行
 
 在CLion中选择`redis-server`，选择运行/调试，即可成功运行。
 
 ## 源码地址
 
-`https://github.com/htw0056/redis-3.0-annotated-cmake-in-clion`，clone该项目导入CLion即可直接运行。# Andromeda
+`https://github.com/DataDea/Andromeda.git`，clone该项目导入CLion即可直接运行。# Andromeda
