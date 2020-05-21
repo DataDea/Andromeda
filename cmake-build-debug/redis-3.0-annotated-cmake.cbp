@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="redis-3.0-annotated-cmake"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;CMake Files\deps\hiredis\;CMake Files\deps\linenoise\;CMake Files\deps\lua\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-cli">
+				<Option output="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/redis-cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis"/>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise"/>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-cli"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-cli/fast">
+				<Option output="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/redis-cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis"/>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise"/>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-cli/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-server">
+				<Option output="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/redis-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis"/>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise"/>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-server"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-server/fast">
+				<Option output="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/redis-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis"/>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise"/>
+					<Add directory="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-server/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis">
+				<Option output="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/libhiredis.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis/fast">
+				<Option output="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/libhiredis.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linenoise">
+				<Option output="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/liblinenoise.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 linenoise"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linenoise/fast">
+				<Option output="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/liblinenoise.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 linenoise/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua">
+				<Option output="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/liblua.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 lua"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua/fast">
+				<Option output="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/liblua.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 lua/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/async.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/async.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/dict.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/dict.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/hiredis.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/hiredis.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/net.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/net.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/sds.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/sds.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise/linenoise.c">
+			<Option target="linenoise"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise/linenoise.h">
+			<Option target="linenoise"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lapi.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lapi.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lauxlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lauxlib.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lbaselib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lcode.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lcode.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ldblib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ldebug.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ldebug.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ldo.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ldo.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ldump.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lfunc.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lfunc.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lgc.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lgc.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/linit.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/liolib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/llex.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/llex.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lmathlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lmem.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lmem.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/loadlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lobject.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lobject.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lopcodes.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lopcodes.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/loslib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lparser.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lparser.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lstate.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lstate.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lstring.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lstring.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lstrlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ltable.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ltable.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ltablib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ltm.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/ltm.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lua.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lua.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lua_cjson.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lua_cmsgpack.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lua_struct.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/luac.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lundump.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lundump.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lvm.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lvm.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lzio.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/lzio.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/print.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/strbuf.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src/strbuf.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/adlist.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/adlist.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/ae.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/ae.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/anet.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/anet.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/aof.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/bio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/bio.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/bitops.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/blocked.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/cluster.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/cluster.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/config.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/config.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/crc16.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/crc64.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/crc64.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/db.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/debug.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/dict.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/dict.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/endianconv.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/endianconv.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/hyperloglog.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/intset.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/intset.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/lzf_c.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/lzf_d.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/memtest.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/multi.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/networking.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/notify.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/object.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/pqsort.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/pqsort.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/pubsub.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/rand.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/rand.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/rdb.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/rdb.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/redis-cli.c">
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/redis.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/redis.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/release.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/release.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/replication.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/rio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/rio.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/scripting.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/sds.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/sds.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/sentinel.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/setproctitle.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/sha1.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/sha1.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/slowlog.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/slowlog.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/sort.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/syncio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/t_hash.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/t_list.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/t_set.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/t_string.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/t_zset.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/util.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/util.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/ziplist.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/ziplist.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/zipmap.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/zipmap.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/zmalloc.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/src/zmalloc.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\hiredis\"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\linenoise\"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/Documents/cproject/redis-clion/deps/lua/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\lua\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
