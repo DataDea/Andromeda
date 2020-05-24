@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yanghai/Documents/cproject/redis-clion/deps/lua
+# Install script for directory: /Users/yanghai/Documents/cproject/Andromeda/deps/lua
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

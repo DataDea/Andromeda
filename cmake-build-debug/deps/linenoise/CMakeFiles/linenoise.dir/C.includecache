@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise/linenoise.c
+/Users/yanghai/Documents/cproject/Andromeda/deps/linenoise/linenoise.c
 termios.h
 -
 unistd.h
@@ -30,7 +30,7 @@ sys/ioctl.h
 unistd.h
 -
 linenoise.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise/linenoise.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/linenoise/linenoise.h
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise/linenoise.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/linenoise/linenoise.h
 

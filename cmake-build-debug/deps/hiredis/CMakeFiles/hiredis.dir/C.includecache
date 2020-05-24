@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/async.c
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/async.c
 fmacros.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/fmacros.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/fmacros.h
 stdlib.h
 -
 string.h
@@ -22,21 +22,21 @@ ctype.h
 errno.h
 -
 async.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/async.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/async.h
 net.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/net.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/net.h
 dict.c
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/dict.c
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/dict.c
 sds.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/sds.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/sds.h
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/async.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/async.h
 hiredis.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/hiredis.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/hiredis.h
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/dict.c
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/dict.c
 fmacros.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/fmacros.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/fmacros.h
 stdlib.h
 -
 assert.h
@@ -44,15 +44,15 @@ assert.h
 limits.h
 -
 dict.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/dict.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/dict.h
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/dict.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/dict.h
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/fmacros.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/fmacros.h
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/hiredis.c
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/hiredis.c
 fmacros.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/fmacros.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/fmacros.h
 string.h
 -
 stdlib.h
@@ -66,13 +66,13 @@ errno.h
 ctype.h
 -
 hiredis.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/hiredis.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/hiredis.h
 net.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/net.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/net.h
 sds.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/sds.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/sds.h
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/hiredis.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/hiredis.h
 stdio.h
 -
 stdarg.h
@@ -80,9 +80,9 @@ stdarg.h
 sys/time.h
 -
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/net.c
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/net.c
 fmacros.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/fmacros.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/fmacros.h
 sys/types.h
 -
 sys/socket.h
@@ -116,15 +116,15 @@ poll.h
 limits.h
 -
 net.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/net.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/net.h
 sds.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/sds.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/sds.h
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/net.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/net.h
 hiredis.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/hiredis.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/hiredis.h
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/sds.c
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/sds.c
 stdio.h
 -
 stdlib.h
@@ -136,19 +136,19 @@ ctype.h
 assert.h
 -
 sds.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/sds.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/sds.h
 zmalloc.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/zmalloc.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/zmalloc.h
 stdio.h
 -
 testhelp.h
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/testhelp.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/testhelp.h
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/sds.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/sds.h
 sys/types.h
 -
 stdarg.h
 -
 
-/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis/zmalloc.h
+/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis/zmalloc.h
 

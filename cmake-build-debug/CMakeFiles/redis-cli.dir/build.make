@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yanghai/Documents/cproject/redis-clion
+CMAKE_SOURCE_DIR = /Users/yanghai/Documents/cproject/Andromeda
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/redis-cli.dir/depend.make
@@ -59,107 +59,107 @@ include CMakeFiles/redis-cli.dir/flags.make
 
 CMakeFiles/redis-cli.dir/src/anet.c.o: CMakeFiles/redis-cli.dir/flags.make
 CMakeFiles/redis-cli.dir/src/anet.c.o: ../src/anet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/redis-cli.dir/src/anet.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/anet.c.o   -c /Users/yanghai/Documents/cproject/redis-clion/src/anet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/redis-cli.dir/src/anet.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/anet.c.o   -c /Users/yanghai/Documents/cproject/Andromeda/src/anet.c
 
 CMakeFiles/redis-cli.dir/src/anet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/anet.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/redis-clion/src/anet.c > CMakeFiles/redis-cli.dir/src/anet.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/Andromeda/src/anet.c > CMakeFiles/redis-cli.dir/src/anet.c.i
 
 CMakeFiles/redis-cli.dir/src/anet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/anet.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/redis-clion/src/anet.c -o CMakeFiles/redis-cli.dir/src/anet.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/Andromeda/src/anet.c -o CMakeFiles/redis-cli.dir/src/anet.c.s
 
 CMakeFiles/redis-cli.dir/src/sds.c.o: CMakeFiles/redis-cli.dir/flags.make
 CMakeFiles/redis-cli.dir/src/sds.c.o: ../src/sds.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/redis-cli.dir/src/sds.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/sds.c.o   -c /Users/yanghai/Documents/cproject/redis-clion/src/sds.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/redis-cli.dir/src/sds.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/sds.c.o   -c /Users/yanghai/Documents/cproject/Andromeda/src/sds.c
 
 CMakeFiles/redis-cli.dir/src/sds.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/sds.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/redis-clion/src/sds.c > CMakeFiles/redis-cli.dir/src/sds.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/Andromeda/src/sds.c > CMakeFiles/redis-cli.dir/src/sds.c.i
 
 CMakeFiles/redis-cli.dir/src/sds.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/sds.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/redis-clion/src/sds.c -o CMakeFiles/redis-cli.dir/src/sds.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/Andromeda/src/sds.c -o CMakeFiles/redis-cli.dir/src/sds.c.s
 
 CMakeFiles/redis-cli.dir/src/adlist.c.o: CMakeFiles/redis-cli.dir/flags.make
 CMakeFiles/redis-cli.dir/src/adlist.c.o: ../src/adlist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/redis-cli.dir/src/adlist.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/adlist.c.o   -c /Users/yanghai/Documents/cproject/redis-clion/src/adlist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/redis-cli.dir/src/adlist.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/adlist.c.o   -c /Users/yanghai/Documents/cproject/Andromeda/src/adlist.c
 
 CMakeFiles/redis-cli.dir/src/adlist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/adlist.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/redis-clion/src/adlist.c > CMakeFiles/redis-cli.dir/src/adlist.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/Andromeda/src/adlist.c > CMakeFiles/redis-cli.dir/src/adlist.c.i
 
 CMakeFiles/redis-cli.dir/src/adlist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/adlist.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/redis-clion/src/adlist.c -o CMakeFiles/redis-cli.dir/src/adlist.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/Andromeda/src/adlist.c -o CMakeFiles/redis-cli.dir/src/adlist.c.s
 
 CMakeFiles/redis-cli.dir/src/redis-cli.c.o: CMakeFiles/redis-cli.dir/flags.make
 CMakeFiles/redis-cli.dir/src/redis-cli.c.o: ../src/redis-cli.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/redis-cli.dir/src/redis-cli.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/redis-cli.c.o   -c /Users/yanghai/Documents/cproject/redis-clion/src/redis-cli.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/redis-cli.dir/src/redis-cli.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/redis-cli.c.o   -c /Users/yanghai/Documents/cproject/Andromeda/src/redis-cli.c
 
 CMakeFiles/redis-cli.dir/src/redis-cli.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/redis-cli.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/redis-clion/src/redis-cli.c > CMakeFiles/redis-cli.dir/src/redis-cli.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/Andromeda/src/redis-cli.c > CMakeFiles/redis-cli.dir/src/redis-cli.c.i
 
 CMakeFiles/redis-cli.dir/src/redis-cli.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/redis-cli.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/redis-clion/src/redis-cli.c -o CMakeFiles/redis-cli.dir/src/redis-cli.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/Andromeda/src/redis-cli.c -o CMakeFiles/redis-cli.dir/src/redis-cli.c.s
 
 CMakeFiles/redis-cli.dir/src/zmalloc.c.o: CMakeFiles/redis-cli.dir/flags.make
 CMakeFiles/redis-cli.dir/src/zmalloc.c.o: ../src/zmalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/redis-cli.dir/src/zmalloc.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/zmalloc.c.o   -c /Users/yanghai/Documents/cproject/redis-clion/src/zmalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/redis-cli.dir/src/zmalloc.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/zmalloc.c.o   -c /Users/yanghai/Documents/cproject/Andromeda/src/zmalloc.c
 
 CMakeFiles/redis-cli.dir/src/zmalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/zmalloc.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/redis-clion/src/zmalloc.c > CMakeFiles/redis-cli.dir/src/zmalloc.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/Andromeda/src/zmalloc.c > CMakeFiles/redis-cli.dir/src/zmalloc.c.i
 
 CMakeFiles/redis-cli.dir/src/zmalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/zmalloc.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/redis-clion/src/zmalloc.c -o CMakeFiles/redis-cli.dir/src/zmalloc.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/Andromeda/src/zmalloc.c -o CMakeFiles/redis-cli.dir/src/zmalloc.c.s
 
 CMakeFiles/redis-cli.dir/src/release.c.o: CMakeFiles/redis-cli.dir/flags.make
 CMakeFiles/redis-cli.dir/src/release.c.o: ../src/release.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/redis-cli.dir/src/release.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/release.c.o   -c /Users/yanghai/Documents/cproject/redis-clion/src/release.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/redis-cli.dir/src/release.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/release.c.o   -c /Users/yanghai/Documents/cproject/Andromeda/src/release.c
 
 CMakeFiles/redis-cli.dir/src/release.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/release.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/redis-clion/src/release.c > CMakeFiles/redis-cli.dir/src/release.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/Andromeda/src/release.c > CMakeFiles/redis-cli.dir/src/release.c.i
 
 CMakeFiles/redis-cli.dir/src/release.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/release.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/redis-clion/src/release.c -o CMakeFiles/redis-cli.dir/src/release.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/Andromeda/src/release.c -o CMakeFiles/redis-cli.dir/src/release.c.s
 
 CMakeFiles/redis-cli.dir/src/ae.c.o: CMakeFiles/redis-cli.dir/flags.make
 CMakeFiles/redis-cli.dir/src/ae.c.o: ../src/ae.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/redis-cli.dir/src/ae.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/ae.c.o   -c /Users/yanghai/Documents/cproject/redis-clion/src/ae.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/redis-cli.dir/src/ae.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/ae.c.o   -c /Users/yanghai/Documents/cproject/Andromeda/src/ae.c
 
 CMakeFiles/redis-cli.dir/src/ae.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/ae.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/redis-clion/src/ae.c > CMakeFiles/redis-cli.dir/src/ae.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/Andromeda/src/ae.c > CMakeFiles/redis-cli.dir/src/ae.c.i
 
 CMakeFiles/redis-cli.dir/src/ae.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/ae.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/redis-clion/src/ae.c -o CMakeFiles/redis-cli.dir/src/ae.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/Andromeda/src/ae.c -o CMakeFiles/redis-cli.dir/src/ae.c.s
 
 CMakeFiles/redis-cli.dir/src/crc64.c.o: CMakeFiles/redis-cli.dir/flags.make
 CMakeFiles/redis-cli.dir/src/crc64.c.o: ../src/crc64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/redis-cli.dir/src/crc64.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/crc64.c.o   -c /Users/yanghai/Documents/cproject/redis-clion/src/crc64.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/redis-cli.dir/src/crc64.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/crc64.c.o   -c /Users/yanghai/Documents/cproject/Andromeda/src/crc64.c
 
 CMakeFiles/redis-cli.dir/src/crc64.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/crc64.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/redis-clion/src/crc64.c > CMakeFiles/redis-cli.dir/src/crc64.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yanghai/Documents/cproject/Andromeda/src/crc64.c > CMakeFiles/redis-cli.dir/src/crc64.c.i
 
 CMakeFiles/redis-cli.dir/src/crc64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/crc64.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/redis-clion/src/crc64.c -o CMakeFiles/redis-cli.dir/src/crc64.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yanghai/Documents/cproject/Andromeda/src/crc64.c -o CMakeFiles/redis-cli.dir/src/crc64.c.s
 
 # Object files for target redis-cli
 redis__cli_OBJECTS = \
@@ -187,7 +187,7 @@ redis-cli: CMakeFiles/redis-cli.dir/build.make
 redis-cli: deps/linenoise/liblinenoise.a
 redis-cli: deps/hiredis/libhiredis.a
 redis-cli: CMakeFiles/redis-cli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable redis-cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable redis-cli"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/redis-cli.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -200,6 +200,6 @@ CMakeFiles/redis-cli.dir/clean:
 .PHONY : CMakeFiles/redis-cli.dir/clean
 
 CMakeFiles/redis-cli.dir/depend:
-	cd /Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yanghai/Documents/cproject/redis-clion /Users/yanghai/Documents/cproject/redis-clion /Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug /Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug /Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/CMakeFiles/redis-cli.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yanghai/Documents/cproject/Andromeda /Users/yanghai/Documents/cproject/Andromeda /Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug /Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug /Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/CMakeFiles/redis-cli.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/redis-cli.dir/depend
 

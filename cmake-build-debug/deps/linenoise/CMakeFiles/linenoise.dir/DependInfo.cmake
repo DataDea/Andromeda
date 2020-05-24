@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise/linenoise.c" "/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o"
+  "/Users/yanghai/Documents/cproject/Andromeda/deps/linenoise/linenoise.c" "/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

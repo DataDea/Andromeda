@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yanghai/Documents/cproject/redis-clion/deps
+# Install script for directory: /Users/yanghai/Documents/cproject/Andromeda/deps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/hiredis/cmake_install.cmake")
-  include("/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/linenoise/cmake_install.cmake")
-  include("/Users/yanghai/Documents/cproject/redis-clion/cmake-build-debug/deps/lua/cmake_install.cmake")
+  include("/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/deps/hiredis/cmake_install.cmake")
+  include("/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/deps/linenoise/cmake_install.cmake")
+  include("/Users/yanghai/Documents/cproject/Andromeda/cmake-build-debug/deps/lua/cmake_install.cmake")
 
 endif()
 

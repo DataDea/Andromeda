@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk 
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/yanghai/Documents/cproject/redis-clion/deps/hiredis -I/Users/yanghai/Documents/cproject/redis-clion/deps/linenoise -I/Users/yanghai/Documents/cproject/redis-clion/deps/lua/src 
+C_INCLUDES = -I/Users/yanghai/Documents/cproject/Andromeda/deps/hiredis -I/Users/yanghai/Documents/cproject/Andromeda/deps/linenoise -I/Users/yanghai/Documents/cproject/Andromeda/deps/lua/src 
 

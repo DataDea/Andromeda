@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yanghai/Documents/cproject/redis-clion/deps/hiredis
+# Install script for directory: /Users/yanghai/Documents/cproject/Andromeda/deps/hiredis
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
