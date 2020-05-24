@@ -10,7 +10,7 @@
 
 ##### 1. 下载源码
 ```
-git clone git@github.com:huangz1990/redis-3.0-annotated.git
+git clone https://github.com/DataDea/Andromeda.git
 ```
 
 ##### 2. 环境搭建
