@@ -425,6 +425,7 @@ list *listDup(list *orig)
         if (copy->dup) {
             value = copy->dup(node->value);
             if (value == NULL) {
+                //判断空的处理
                 listRelease(copy);
                 listReleaseIterator(iter);
                 return NULL;
