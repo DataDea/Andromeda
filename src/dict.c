@@ -195,8 +195,7 @@ static void _dictReset(dictht *ht)
  *
  * T = O(1)
  */
-dict *dictCreate(dictType *type,
-        void *privDataPtr)
+dict *dictCreate(dictType *type,void *privDataPtr)
 {
     dict *d = zmalloc(sizeof(*d));
 
@@ -211,8 +210,7 @@ dict *dictCreate(dictType *type,
  *
  * T = O(1)
  */
-int _dictInit(dict *d, dictType *type,
-        void *privDataPtr)
+int _dictInit(dict *d, dictType *type,void *privDataPtr)
 {
     // 初始化两个哈希表的各项属性值
     // 但暂时还不分配内存给哈希表数组
