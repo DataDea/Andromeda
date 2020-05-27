@@ -377,7 +377,7 @@ int dictRehash(dict *d, int n) {
 
         /* Note that rehashidx can't overflow as we are sure there are more
          * elements because ht[0].used != 0 */
-        // 确保 rehashidx 没有越界
+        // 确保 rehashindx 没有越界
         assert(d->ht[0].size > (unsigned)d->rehashidx);
 
         // 略过数组中为空的索引，找到下一个非空索引
