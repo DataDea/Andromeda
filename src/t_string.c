@@ -86,6 +86,9 @@ static int checkStringLength(redisClient *c, long long size) {
 #define REDIS_SET_NX (1<<0)     /* Set if key not exists. */
 #define REDIS_SET_XX (1<<1)     /* Set if key exists. */
 
+/**
+ * 保存string类型的通用内部方法
+ */
 void setGenericCommand(redisClient *c, int flags, robj *key, robj *val, robj *expire, int unit, robj *ok_reply, robj *abort_reply) {
 
     long long milliseconds = 0; /* initialized to avoid any harmness warning */
@@ -195,6 +198,9 @@ void psetexCommand(redisClient *c) {
     setGenericCommand(c,REDIS_SET_NO_FLAGS,c->argv[1],c->argv[3],c->argv[2],UNIT_MILLISECONDS,NULL,NULL);
 }
 
+/**
+ * 获取键对应的值的内容通用方法
+ */
 int getGenericCommand(redisClient *c) {
     robj *o;
 

@@ -486,6 +486,9 @@ void listTypeConvert(robj *subject, int enc) {
  * List Commands
  *----------------------------------------------------------------------------*/
 
+/**
+ * 列表里PUSH值的通用方法
+ */
 void pushGenericCommand(redisClient *c, int where) {
 
     int j, waiting = 0, pushed = 0;
